@@ -1,0 +1,39 @@
+[general]
+
+import = [
+"~/.config/alacritty/colors.toml",
+"~/.config/alacritty/keybinds.toml",
+]
+
+working_directory = "None"
+live_config_reload = true
+
+[window]
+
+dimensions = { columns = 150, lines = 30 }
+padding = { x = 10, y = 10 }
+decorations = "None"
+opacity = 0.9
+title = "Terminal"
+dynamic_title = false
+
+[font]
+
+normal = { family = "MesloLGS Nerd Font Mono", style = "Regular" }
+bold = { family = "MesloLGS Nerd Font Mono", style = "Bold" }
+italic = { family = "MesloLGS Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "MesloLGS Nerd Font Mono", style = "Bold Italic" }
+size = 16
+
+[cursor.style]
+
+shape = "Beam"
+blinking = "Never"
+
+[colors]
+
+draw_bold_text_with_bright_colors = true
+
+[env]
+
+TERM = "xterm-256color"
