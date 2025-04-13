@@ -1,0 +1,8 @@
+# Arquivos de compilação
+*.o
+*.rej
+*.diff
+
+# Arquivos compilados
+*/dwm
+*/slstatus
